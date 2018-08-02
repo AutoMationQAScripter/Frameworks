@@ -24,7 +24,7 @@ public class Login {
 		
 		String loggedUserName = Constants.driver.findElement(By.xpath("//header/div[1]//..//span/div")).getText();
 		Assert.assertEquals(loggedUserName, "santosh");
-		//header/div[1]/div/div/div/div[2]/div[1]/div/div/div/span/div
+				//header/div[1]/div/div/div/div[2]/div[1]/div/div/div/span/div
 		}
 		catch(Exception e){
 			System.out.println(e.getMessage());

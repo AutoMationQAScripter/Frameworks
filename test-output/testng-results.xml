@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13921" started-at="2018-08-01T18:32:22Z" finished-at="2018-08-01T18:32:36Z">
+  <suite name="Default suite" duration-ms="18734" started-at="2018-08-02T19:44:36Z" finished-at="2018-08-02T19:44:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13921" started-at="2018-08-01T18:32:22Z" finished-at="2018-08-01T18:32:36Z">
+    <test name="Default test" duration-ms="18734" started-at="2018-08-02T19:44:36Z" finished-at="2018-08-02T19:44:55Z">
       <class name="applicationTest.ApplicationTest">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:applicationTest.ApplicationTest@523884b2]" name="loginTest" duration-ms="13886" started-at="2018-08-02T00:02:22Z" finished-at="2018-08-02T00:02:36Z">
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:applicationTest.ApplicationTest@523884b2]" name="loginTest" duration-ms="12188" started-at="2018-08-03T01:14:36Z" finished-at="2018-08-03T01:14:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="addToCartTest()[pri:2, instance:applicationTest.ApplicationTest@523884b2]" name="addToCartTest" duration-ms="6514" started-at="2018-08-03T01:14:49Z" finished-at="2018-08-03T01:14:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
       </class> <!-- applicationTest.ApplicationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
